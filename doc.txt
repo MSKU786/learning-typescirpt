@@ -1,0 +1,17 @@
+Welcome to TypeScript
+
+
+Type: 
+ 1. Primitive (number, boolean, string, void, undefined, null, symbol)
+ 2. Object (function, classes, array, objects)
+
+**Type Annotations**
+Code we add to tell TS what type of value a variable will refer todos
+
+
+**Type Inference**
+TS try to figure out what type of value a variable refers to
+
+
+Tuple:
+  Array like structure where each element repersent some property of a record
