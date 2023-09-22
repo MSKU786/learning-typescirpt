@@ -15,3 +15,9 @@ TS try to figure out what type of value a variable refers to
 
 Tuple:
   Array like structure where each element repersent some property of a record
+
+
+Interface + Classes = realy strong code reusable in TS
+
+Interfaces: creates a new type, describing the property name and values types of an object 
+ 
