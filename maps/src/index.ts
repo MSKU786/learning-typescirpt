@@ -1,5 +1,12 @@
-import { faker } from '@faker-js/faker';
+/// <reference types="@types/google.maps" />
 import { User } from './User';
+// import { Company } from './Company';
+import { CustomMap } from './CustomMap';
+import { Company } from './Company';
 
-const u1 = new User();
-console.log(u1);
+const user = new User();
+const company = new Company();
+const newMap = new CustomMap('map');
+
+newMap.addUserMarker(user);
+newMap.addCompanyMarker(company);
