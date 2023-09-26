@@ -20,4 +20,7 @@ Tuple:
 Interface + Classes = realy strong code reusable in TS
 
 Interfaces: creates a new type, describing the property name and values types of an object 
- 
+
+
+Classes: 
+  Blueprint to create an object with some fields and methods to repersent a thing
