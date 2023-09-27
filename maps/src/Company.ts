@@ -16,4 +16,8 @@ export class Company {
       long: faker.location.longitude(),
     };
   }
+
+  markerContent(): string {
+    return `Our company catch phrase is  ${this.catchPhrase}`;
+  }
 }
